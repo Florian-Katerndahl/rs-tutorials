@@ -3,7 +3,7 @@ title: "Change-Vector-Analysis using Landsat data"
 author: "Fabian Fassnacht"
 output: github_document
 params:
-    local_build: TRUE
+    local_build: FALSE
 ---
 
 ```{r setup, include=FALSE}
@@ -44,6 +44,9 @@ The datasets applied in this tutorial are available here: [https://drive.google.
 The zip-file contains two Landsat images from 2004 and 2014 and the corresponding cloud masks.
 
 ### Step 1: Loading packages and Landsat data
+
+!!! warning
+    Please note, that the package `RStoolbox` has been removed from the CRAN-package index and thus, cannot normally be installed. Additionally, the package specifies a dependency to `rgdal`, which will be removed during October 2023
 
 As first step, load all necessary R packages by executing the following code (please install missing packages):
 
