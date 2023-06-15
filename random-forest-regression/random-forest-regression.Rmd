@@ -1,5 +1,5 @@
 ---
-title: "Mapping Ellenberg values using a RandomForest regression and two types of optical remote sensing datasets"
+title: "Mapping Ellenberg Values using RandomForest Regression"
 author: "Fabian Fassnacht"
 output: github_document
 params:
